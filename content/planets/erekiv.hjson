@@ -1,0 +1,66 @@
+accessible: true
+allowLaunchLoadout: true
+allowLaunchSchematics: true
+allowSectorInvasion: true
+allowWaves: true
+allowWaveSimulation: true
+alwaysUnlocked: true
+atmosphereColor: d98132
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.5
+bloom: false
+camRadius: 0.4
+clearSectorOnLose: false
+defaultCore: core-shard
+drawOrbit: true
+
+generator:{
+alt: true
+baseseed: 13212
+berylChance:0.20
+carbonChance:0.20
+ferricChance:0.20
+iceChance:0.12
+min:120
+max:978
+octaves: 1
+radMax: 620
+radMin: 225
+persistance:0.09
+scl:4.52
+seed:125
+type:ErekirPlanetGenerator
+waterOffset:0
+}
+
+hasAtmosphere: true
+hiddenItems:[]
+iconColor: 081324
+launchCandidates: []
+localizedName: erekiv
+
+mesh: {
+  type: NoiseMesh
+  planet: erekiv
+  seed: 921
+  divisions: 5
+  color1: 786981
+  color2: 9132a9
+  radius: 4.11
+  octaves: 4
+  persistence: 0.128
+  scale: 1
+  mag: 1.5
+}
+
+minZoom: 0.17
+orbitRadius: 30
+orbitSpacing: 140
+parent: sun
+radius: 4.51
+solarSystem: sun
+sectorSeed: 512
+startSector: 0
+sectorSize: 4
+updateLighting: false
+visible: true

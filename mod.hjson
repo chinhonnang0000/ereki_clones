@@ -2,7 +2,7 @@
 author: chin hon nang
 displayName: ereki_clones
 dependencies:[]
-description: "erekir clones. No techs provided but you are free to use techs from other mods and original content" 
+description: "erekir clones. No techs provided but you are free to use techs from other mods and original content. Currently ErekirPlanetGenerator does not provide enemies." 
 hidden:false
 name: ereki_clones
 minGameVersion: 141
